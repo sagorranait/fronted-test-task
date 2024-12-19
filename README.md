@@ -14,10 +14,29 @@ Frontend Test Task (Reactjs): [https://fronted-task-reactjs.netlify.app](https:/
 </div>
 <br/>
 
-## Features
- - <b>User Registration and Profiles:</b> The website would allow both clients and freelancers to create user accounts. Each user would have a profile where they can manage their personal information, job preferences, and other relevant details.
- - <b>Job Posting:</b> Clients can create and post job listings, specifying the details of the job, such as title, description, skills required, and any other relevant information.
- - <b>Job Search and Matching:</b> Freelancers can search for jobs based on criteria such as job tags, and compensation. The website would then present them with a list of matching job opportunities.
- - <b>Application or Proposal Submission:</b> Freelancers can submit applications or proposals for the jobs they are interested in. This might involve providing information about their qualifications, experience, and why they are a good fit for the job.
- - <b>Job Listings:</b> The website likely displays a list of available jobs posted by clients or employers. Each job listing may include details such as job title, description, requirements, and compensation.
- - <b>Freelancer Profiles:</b> Freelancers on the platform would have profiles showcasing their skills, portfolio, and reviews from previous clients. This helps clients make informed decisions when hiring.
+## Project Features  
+
+1. **Responsive Design**  
+   - I created a fully responsive design that ensures usability across all device sizes, including mobile, tablet, and desktop. 
+   - Pixel-perfect layout and design implementation as per the Figma design.  
+
+2. **Cross-Browser Compatibility**  
+   - I have ensured a consistent user experience across all modern browsers.  
+
+3. **Styling Options**  
+   - I've utilized custom CSS along with Tailwind CSS for efficient development and a cohesive design.  
+
+4. **Interactive Elements**  
+   - Follows ES6 standards, I write clean, modern JavaScript code. 
+
+5. **Scalable Codebase**  
+   - Code is well-structured and maintainable for future scalability and ease of modifications.  
+
+6. **Pixel-Perfect Conversion**  
+   - High attention to detail to match every design element, ensuring the webpage mirrors the Figma design exactly.  
+
+7. **Static Webpage**  
+   - Converts the Figma design into plain HTML with static front-end functionality using Vanilla JavaScript.  
+
+8. **React/Vue Implementation (Optional)**  
+   - I have implemented the design in both plain HTML and a component-based framework like React for improved reusability and adherence to modern development practices.

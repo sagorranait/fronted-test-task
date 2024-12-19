@@ -6,11 +6,11 @@ Frontend Test Task (HTML): [https://frontend-task-html.netlify.app](https://fron
 <br/><br/>
 Frontend Test Task (Reactjs): [https://fronted-task-reactjs.netlify.app](https://fronted-task-reactjs.netlify.app/)
 
-<p align="center"><img src="https://i.ibb.co.com/Kzgtphj/Screenshot-4.png" alt="project-image"></p>
+<p align="center"><img src="https://i.ibb.co.com/vvWN6qx/Screenshot-4.png" alt="project-image"></p>
 <div style="display: flex;flex-wrap: wrap;justify-content: center;align-items: center;">
-  <img src="https://i.ibb.co.com/SNM0tC2/Screenshot-5-min.png" alt="project-screenshot" width="269">
-  <img src="https://i.ibb.co.com/c88q3vq/Screenshot-6-min.png" alt="project-screenshot" width="269">
-  <img src="https://i.ibb.co.com/0nP5P5d/Screenshot-7-min.png" alt="project-screenshot" width="269">
+  <img src="https://ibb.co.com/SNM0tC2" alt="project-screenshot" width="269">
+  <img src="https://ibb.co.com/c88q3vq" alt="project-screenshot" width="269">
+  <img src="https://ibb.co.com/0nP5P5d" alt="project-screenshot" width="269">
 </div>
 <p></p>
 

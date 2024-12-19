@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Test Task (HTML)</title>
+    <script src="https://cdn.tailwindcss.com" defer></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body class="pt-4 mb-7 lg:mb-0 lg:pt-32 xl:pt-4 2xl:pt-20 lg:h-screen">
+    <!-- Product Section -->
+    <div class="flex flex-col lg:flex-row items-center justify-center p-6 gap-8">
+      <!-- Product Image -->
+      <div id="thumbnail">
+        <img 
+          id="product-image" 
+          src="./assets/images/purple.png" 
+          alt="Smartwatch" 
+          class="rounded-lg shadow-lg w-full md:w-[630px] lg:h-auto 2xl:h-[720px]"
+        />
+      </div>
+
+      <!-- Product Details -->
+      <div class="w-full md:w-[630px]">
+        <h1 class="text-2xl md:text-5xl lg:text-4xl xl:text-5xl 2xl:text-5xl text-[#364A63] font-bold mb-2">Classy Modern Smart watch</h1>
+        <!-- Reviews -->
+        <div class="flex items-center gap-2 py-2 md:py-4 lg:py-3 xl:py-5">
+            <div class="flex items-center gap-1">
+                <img src="./assets/images/icons/star-fill.svg" alt="star-fill">
+                <img src="./assets/images/icons/star-fill.svg" alt="star-fill">
+                <img src="./assets/images/icons/star-fill.svg" alt="star-fill">
+                <img src="./assets/images/icons/star-half-fill.svg" alt="star-fill">
+                <img src="./assets/images/icons/star.svg" alt="star-fill">
+            </div>
+            <p class="text-[#8091A7] text-sm">(2 Reviews)</p>
+        </div>
+
+        <!-- Pricing -->
+        <div class="flex items-center gap-1">
+          <p class="line-through text-[#8091A7] text-lg md:text-xl">$99.00</p>
+          <p class="text-[#6576FF] font-bold text-xl md:text-2xl">$79.00</p>
+        </div>
+
+        <!-- Description -->
+        <p class="py-2 md:py-4 lg:py-3 xl:py-5 text-[#8091A7] text-base md:text-lg lg:text-base xl:text-lg">I must explain to you how all this mistaken idea of denoun cing ple praising pain was born and I will give you a complete account of the system, and expound the actual teaching.</p>
+
+        <!-- Features -->
+         <div class="flex items-center gap-11 pb-4 lg:pb-3 xl:pb-5">
+          <div>
+            <p class="text-[#8091A7] text-sm pb-1">Type</p>
+            <p class="text-[#364A63] text-base font-bold">Watch</p>
+          </div>
+          <div>
+            <p class="text-[#8091A7] text-sm pb-1">Model Number</p>
+            <p class="text-[#364A63] text-base font-bold">Forerunner 290XT</p>
+          </div>
+         </div>
+
+        <!-- Band Colors -->
+        <p class="font-semibold text-lg md:text-xl mb-2.5">Band Color</p>
+        <div class="flex space-x-4">
+          <label class="color-option relative flex items-center cursor-pointer">
+            <input type="radio" name="color" class="hidden peer" data-color="purple" checked />
+            <span class="flex items-center justify-center w-6 h-6 rounded-full peer-checked:ring-2 peer-checked:ring-[#816BFF]">
+              <span class="w-5 h-5 bg-[#816BFF] rounded-full"></span>
+            </span>
+          </label>
+          
+          <label class="color-option relative flex items-center cursor-pointer">
+            <input type="radio" name="color" class="hidden peer" data-color="cyan" />
+            <span class="flex items-center justify-center w-6 h-6 rounded-full peer-checked:ring-2 peer-checked:ring-[#1FCEC9]">
+              <span class="w-5 h-5 bg-[#1FCEC9] rounded-full"></span>
+            </span>
+          </label>
+          
+          <label class="color-option relative flex items-center cursor-pointer">
+            <input type="radio" name="color" class="hidden peer" data-color="blue" />
+            <span class="flex items-center justify-center w-6 h-6 rounded-full peer-checked:ring-2 peer-checked:ring-[#4B97D3]">
+              <span class="w-5 h-5 bg-[#4B97D3] rounded-full"></span>
+            </span>
+          </label>
+          
+          <label class="color-option relative flex items-center cursor-pointer">
+            <input type="radio" name="color" class="hidden peer" data-color="black" />
+            <span class="flex items-center justify-center w-6 h-6 rounded-full peer-checked:ring-2 peer-checked:ring-[#3B4747]">
+              <span class="w-5 h-5 bg-[#3B4747] rounded-full"></span>
+            </span>
+          </label>
+        </div>
+        
+        <!-- Size -->
+        <p class="font-semibold text-lg md:text-xl my-5 mb-2.5">Wrist Size</p>
+        <div class="flex gap-4 mb-5">
+          <!-- Radio Option S -->
+          <label class="relative flex items-center cursor-pointer">
+            <input type="radio" name="size" class="hidden peer" data-size="s" checked />
+            <span class="product-size flex items-center justify-center gap-2 w-[73px] h-9 ring-2 ring-[#DBDFEA] rounded peer-checked:ring-[#6576FF]">
+              <span class="product-size-text text-base font-bold text-[#364A63] peer-checked:text-[#6576FF]">S</span>
+              <span class="text-sm text-[#8091A7] peer-checked:text-[#6576FF]">$69</span>
+            </span>
+          </label>
+        
+          <!-- Radio Option M -->
+          <label class="relative flex items-center cursor-pointer">
+            <input type="radio" name="size" class="hidden peer" data-size="m" />
+            <span class="product-size flex items-center justify-center gap-2 w-[73px] h-9 ring-2 ring-[#DBDFEA] rounded peer-checked:ring-[#6576FF]">
+              <span class="product-size-text text-base font-bold text-[#364A63] peer-checked:text-[#6576FF]">M</span>
+              <span class="text-sm text-[#8091A7] peer-checked:text-[#6576FF]">$79</span>
+            </span>
+          </label>
+        
+          <!-- Radio Option L -->
+          <label class="relative flex items-center cursor-pointer">
+            <input type="radio" name="size" class="hidden peer" data-size="l" />
+            <span class="product-size flex items-center justify-center gap-2 w-[73px] h-9 ring-2 ring-[#DBDFEA] rounded peer-checked:ring-[#6576FF]">
+              <span class="product-size-text text-base font-bold text-[#364A63] peer-checked:text-[#6576FF]">L</span>
+              <span class="text-sm text-[#8091A7] peer-checked:text-[#6576FF]">$89</span>
+            </span>
+          </label>
+        
+          <!-- Radio Option XL -->
+          <label class="relative flex items-center cursor-pointer">
+            <input type="radio" name="size" class="hidden peer" data-size="xl" />
+            <span class="product-size flex items-center justify-center gap-2 w-[73px] h-9 ring-2 ring-[#DBDFEA] rounded peer-checked:ring-[#6576FF]">
+              <span class="product-size-text text-base font-bold text-[#364A63] peer-checked:text-[#6576FF]">XL</span>
+              <span class="text-sm text-[#8091A7] peer-checked:text-[#6576FF]">$99</span>
+            </span>
+          </label>
+        </div>
+
+        <!-- Quantity -->
+        <div class="flex items-center gap-3">
+          <div class="w-32 h-9 flex items-center justify-between border border-[#DBDFEA] rounded">
+            <button id="decrement" class="text-base text-[#8091A7] text-xl px-2 h-9 border-r">-</button>
+            <input type="number" name="quantity" id="quantity" class="text-base text-center w-14 bg-transparent	outline-none" min="1" value="1">
+            <button id="increment" class="text-base text-[#8091A7] text-xl px-2 h-9 border-l">+</button>
+          </div>
+
+          <button id="add-to-cart" class="bg-[#6576FF] text-white font-bold px-5 py-1.5 rounded hover:bg-[#4D5DE0]">
+            Add to Cart
+          </button>
+
+          <img src="./assets/images/icons/heart.svg" alt="heart-icon" class="cursor-pointer">
+        </div>
+
+        <div id="cart-notice" class="hidden mt-5 text-green-500"></div>
+      </div>
+    </div>
+    
+    <!-- Floating Checkout Button -->
+    <div id="checkout-btn" class="w-36 m-auto mt-5 flex items-center bg-[#FFBB5A] text-[#364A63] font-bold px-6 py-2 rounded-full items-center cursor-pointer shadow-lg">
+      Checkout <span id="cart-count" class="ml-2 bg-white rounded font-bold px-1.5 pt-0.5">0</span>
+    </div>
+
+    <!-- Modal -->
+    <div id="cart-modal" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
+      <div class="bg-white rounded-[20px] w-full m-5 md:m-0 md:w-5/6 lg:w-3/5 2xl:w-1/2 p-11 shadow-lg">
+        <h2 class="text-2xl text-[#364A63] font-bold mb-4">Your Cart</h2>
+
+        <table class="w-full text-left">
+          <thead class="border-b border-[#DBDFEA]">
+            <tr>
+              <th class="py-2 text-[#8091A7]">Item</th>
+              <th class="py-2 text-center text-[#8091A7]">Color</th>
+              <th class="py-2 text-center text-[#8091A7]">Size</th>
+              <th class="py-2 text-center text-[#8091A7]">Qnt</th>
+              <th class="py-2 text-[#8091A7] text-right">Price</th>
+            </tr>
+          </thead>
+          <tbody id="cart-items" class="border-t"></tbody>
+        </table>
+
+        <div class="flex justify-between mt-6">
+          <div class="font-bold text-lg">Total</div>
+          <div class="flex items-center gap-6 md:gap-9 lg:gap-8 xl:gap-[75px] 2xl:gap-[88px]">
+            <div id="total-quantity" class="text-base text-center font-bold">0</div>
+            <div id="total-price" class="text-lg font-bold">$0.00</div>
+          </div>
+        </div>
+
+        <div class="flex justify-end mt-6 gap-4">
+          <button class="close-modal border px-4 py-2 rounded hover:bg-gray-200">Continue Shopping</button>
+          <button class="close-modal bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-800">Checkout</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

@@ -38,5 +38,5 @@ Frontend Test Task (Reactjs): [https://fronted-task-reactjs.netlify.app](https:/
 7. **Static Webpage**  
    - Converts the Figma design into plain HTML with static front-end functionality using Vanilla JavaScript.  
 
-8. **React/Vue Implementation (Optional)**  
+8. **React/Vue Implementation**  
    - I have implemented the design in both plain HTML and a component-based framework like React for improved reusability and adherence to modern development practices.

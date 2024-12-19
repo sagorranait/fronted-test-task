@@ -2,9 +2,9 @@
 
 In this assignment, you'll be responsible for converting a Figma design into clean, well-structured code. Your goal is to accurately implement the design elements and front-end functionality besides ensuring cross-browser and responsiveness.
 <br/><br/>
-Frontend Test Task (HTML): [<img src="https://i.ibb.co/s15x7kH/Asset-1.png" alt="Asset-1" border="0" width="110">](https://frontend-task-html.netlify.app/)
+Frontend Test Task (HTML): [https://frontend-task-html.netlify.app](https://frontend-task-html.netlify.app/)
 <br/><br/>
-Frontend Test Task (Reactjs): [<img src="https://i.ibb.co/s15x7kH/Asset-1.png" alt="Asset-1" border="0" width="110">](https://fronted-task-reactjs.netlify.app/)
+Frontend Test Task (Reactjs): [https://fronted-task-reactjs.netlify.app](https://fronted-task-reactjs.netlify.app/)
 
 <p align="center"><img src="https://ibb.co.com/Kzgtphj" alt="project-image"></p>
 <div style="display: flex;flex-wrap: wrap;justify-content: center;align-items: center;">
